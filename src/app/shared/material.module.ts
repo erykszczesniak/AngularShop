@@ -24,8 +24,9 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     MatListModule,
     MatCardModule,
     MatPaginatorModule,
-    MatTableModule
-   
+    MatTableModule,
+    MatInputModule,
+    MatSnackBarModule
   ],
   exports: [
     MatIconModule,
@@ -33,7 +34,9 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     MatListModule,
     MatCardModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatInputModule,
+    MatSnackBarModule
   ],
   
 })
